@@ -17,7 +17,7 @@ spark.sparkContext.setLogLevel("ERROR")
 
 # Kafka connection details
 kafka_server = "localhost:9092"
-topic_name = "tweets"
+topic_name = "comments"
 
 # Load the pre-trained model (e.g., sentiment analysis or classification model)
 model = joblib.load('imdb_model.pkl')
