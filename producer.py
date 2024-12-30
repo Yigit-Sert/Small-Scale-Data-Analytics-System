@@ -6,7 +6,7 @@ import sys
 
 # Kafka broker and topic settings
 BROKER = 'localhost:9092'
-TOPIC = 'tweets'
+TOPIC = 'comments'
 
 # File path for the CSV file containing data
 CSV_FILE = 'imdb.csv'
